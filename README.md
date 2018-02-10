@@ -1,6 +1,7 @@
 # BitBucket Apache HTTPS Reverse Proxy
 
 This was one of of the most painful and lengthy application deployments I had to perform, primarily due to the lack of clear and concise documentation. I've attached my final configuration settings which finally allowed my Bitbucket instance to be properly reverse-proxied by Apache 2.4 on the same system.
+Hopefully this helps someone else out one day to avoid the same pain.
 
 ## Prerequisites
 
@@ -10,7 +11,8 @@ Apache 2.4
 ### Files
 
 /etc/apache2/000-default.conf
-var/atlassian/application-data/bitbucket/shared/bitbucket.properties
+\
+/var/atlassian/application-data/bitbucket/shared/bitbucket.properties
 
 ## References
 
@@ -20,4 +22,4 @@ var/atlassian/application-data/bitbucket/shared/bitbucket.properties
 
 ## Acknowledgments
 
-* Hat tip to all the Atlassian support engineers who steering me in the right direction over many months when they really obligated to do so.
+* Hat tip to all the Atlassian support engineers who steering me in the right direction over many months when they really weren't obligated to do so.
