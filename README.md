@@ -5,13 +5,12 @@ Hopefully this helps someone else out one day to avoid the same pain.
 
 ## Prerequisites
 
-Atlassian Bitbucket 5.7
+Atlassian Bitbucket 5.7 \
 Apache 2.4
 
 ### Files
 
-/etc/apache2/000-default.conf
-\
+/etc/apache2/sites-available/000-default.conf \
 /var/atlassian/application-data/bitbucket/shared/bitbucket.properties
 
 ## References
