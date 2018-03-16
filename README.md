@@ -1,6 +1,7 @@
 # BitBucket Apache HTTPS Reverse Proxy
 
 This was one of of the most painful and lengthy application deployments I had to perform, primarily due to the lack of clear and concise documentation. I've attached my final configuration settings which finally allowed my Bitbucket instance to be properly reverse-proxied by Apache 2.4 on the same system.
+
 Hopefully this helps someone else out one day to avoid the same pain.
 
 ## Prerequisites
