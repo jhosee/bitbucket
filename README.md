@@ -21,4 +21,4 @@ Apache 2.4
 
 ## Acknowledgments
 
-* Hat tip to all the Atlassian support engineers who steering me in the right direction over many months when they really weren't obligated to do so.
+* A hat tip goes out to all the Atlassian support engineers who steering me in the right direction over many months when they really weren't obligated to do so.
